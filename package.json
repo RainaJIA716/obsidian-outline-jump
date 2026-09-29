@@ -1,6 +1,6 @@
 {
   "name": "outline-jump",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds jump-to-top and jump-to-bottom buttons to the core Outline pane.",
   "main": "main.js",
   "scripts": {

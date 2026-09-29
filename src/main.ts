@@ -48,7 +48,7 @@ export default class OutlineJumpPlugin extends Plugin {
 		let n = 0;
 		const step = () => {
 			scroller.scrollTop = scroller.scrollHeight;
-			if (++n < 5) requestAnimationFrame(step);
+			if (++n < 5) scroller.win.requestAnimationFrame(step); // the note may live in a popout window
 		};
 		step();
 	}
